@@ -41,6 +41,9 @@
     display: flex;
     gap:20px
 }
+.links li :hover{
+    background-color: var(--green);
+}
 .img-fluid{
     width: 100%;
     height: auto;
