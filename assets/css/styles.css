@@ -7,6 +7,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    list-style: none;
     /* border: 1px solid red; */
 }
 
@@ -41,8 +42,11 @@
     display: flex;
     gap:20px
 }
-.links li :hover{
-    background-color: var(--green);
+.links li{
+   font-size: 20px
+}
+li:hover{
+    color: var(--green);
 }
 .img-fluid{
     width: 100%;
